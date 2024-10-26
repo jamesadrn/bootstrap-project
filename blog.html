@@ -1,0 +1,225 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Blog - Jabarano</title>
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+
+    <!-- Bootstrap JS -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+
+    <style>
+
+    *{
+        scroll-behavior: smooth;
+    }
+
+      body {
+          font-family: 'Roboto', sans-serif;
+          background-color: #11191f;
+          color:azure;
+          font-size: 20px;
+      }
+
+      .blog-header {
+            padding: 60px 0;
+            padding-bottom: 0px;
+        }
+        
+        .blog-content {
+            font-size: 1.1rem;
+            line-height: 1.8;
+        }
+
+        .featured-image {
+            max-height: 500px;
+            object-fit: cover;
+            width: 100%;
+            border-radius: 10px;
+        }
+
+        .author-info {
+            border-left: 3px solid #0d6efd;
+            padding-left: 15px;
+        }
+
+        .reading-time {
+            color: #6c757d;
+            font-size: 0.9rem;
+        }
+
+        .card-title, .card-text{
+        color:black;
+      }
+
+      .card-title{
+        font-size: 22px;
+        font-weight: bold;
+      }
+
+      .caption h3{
+        font-size: 18px;
+      }
+
+    </style>
+</head>
+<body>
+
+    <div id="navbar"></div>
+
+    <article>
+        
+        <!-- Judul -->
+        <header class="blog-header">
+            <div class="container">
+                <div class="row justify-content-center">
+                    <div class="col-lg-8">
+                        <div class="text-center">
+                            <h1 class="display-4 mb-3">Forest Bathing: Nature's Therapy</h1>
+                            <div class="author-info mb-4">
+                                <span class="text-muted">Written by</span>
+                                <span class="fw-bold">James James</span>
+                                <span class="mx-2">|</span>
+                                <span class="text-muted">Published on</span>
+                                <time>March 15, 2024</time>
+                            </div>
+                            <span class="reading-time">8 min read</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </header>
+
+        <main class="container my-5">
+            <div class="row justify-content-center">
+                <div class="col-lg-8">
+
+                    <!-- Gambar -->
+                    <figure class="mb-4">
+                        <img src="https://images.unsplash.com/photo-1445384763658-0400939829cd" 
+                            alt="Person meditating in nature" 
+                            class="featured-image shadow-sm">
+                        <figcaption class="text-center mt-2 text-muted">
+                            Finding peace through mindful practices in nature
+                        </figcaption>
+                    </figure>
+
+                    <div class="blog-content">
+                        <p class="lead">
+                            In today's fast-paced world, finding moments of peace and mindfulness has become more important than ever.
+                        </p>
+
+                        <h2 class="mt-4 mb-3">Understanding Mindfulness</h2>
+                        <p>
+                            Mindfulness is the practice of being present and fully engaged with whatever we're doing at the moment — free from distraction or judgment, and aware of our thoughts and feelings without getting caught up in them.
+                        </p>
+
+                        <blockquote class="border-start border-primary border-4 ps-4 my-4">
+                            <p class="mb-0">"Mindfulness isn't difficult. We just need to remember to do it."</p>
+                            <footer class="text-muted mt-2">— Sharon Salzberg</footer>
+                        </blockquote>
+
+                        <h2 class="mt-4 mb-3">Daily Practices</h2>
+                        <p>
+                            Incorporating mindfulness into your daily routine doesn't have to be complicated. Here are some simple practices you can start with:
+                        </p>
+
+                        <!-- List -->
+                        <ul class="list-group mb-4">
+                            <li class="list-group-item">Morning meditation</li>
+                            <li class="list-group-item">Mindful walking</li>
+                            <li class="list-group-item">Conscious breathing exercises</li>
+                            <li class="list-group-item">Present-moment awareness</li>
+                        </ul>
+
+                        <!-- Tombol Share -->
+                        <div class="d-flex justify-content-between align-items-center mt-5 pt-4 border-top">
+                            <div>
+                                <h5>Share this article</h5>
+                                <button class="btn btn-outline-primary me-2 mt-3">Facebook</button>
+                                <button class="btn btn-outline-primary me-2 mt-3"">Twitter</button>
+                                <button class="btn btn-outline-primary mt-3"">LinkedIn</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </main>
+    </article>
+
+    <!-- Related Articles -->
+    <section class="">
+        <div class="container">
+            <h3 class="text-center mb-4">Related Articles</h3>
+            <div class="row g-4">
+                <div class="col-md-4">
+                    <div class="card h-100">
+                        <img src="https://images.unsplash.com/photo-1445633743309-b60418bedbf2" 
+                            class="card-img-top" alt="Related article image">
+                        <div class="card-body">
+                            <h5 class="card-title">Meditation Basics</h5>
+                            <p class="card-text">A beginner's guide to starting your meditation practice.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="card h-100">
+                        <img src="https://images.unsplash.com/photo-1445307806294-bff7f67ff225" 
+                            class="card-img-top" alt="Related article image">
+                        <div class="card-body">
+                            <h5 class="card-title">Stress Management</h5>
+                            <p class="card-text">Effective techniques for managing daily stress.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="card h-100">
+                        <img src="https://images.unsplash.com/photo-1486591038957-19e7c73bdc41" 
+                            class="card-img-top" alt="Related article image">
+                        <div class="card-body">
+                            <h5 class="card-title">Mindful Eating</h5>
+                            <p class="card-text">Transform your relationship with food through mindfulness.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+        <!-- Join Our Community -->
+        <section aria-label="Subscribe Examples" class="py-5" id="Subscribe">
+            <div class="container-md shadow p-5 rounded" style="background-color: #15242f;">
+                <article class="text-center">
+                    <hgroup class="caption">
+                        <h2 class="mb-1 text-light">Join Our Community</h2>
+                        <h3 class="mb-4 text-muted">Subscribe for the latest lifestyle updates</h3>
+                    </hgroup>
+                    <form class="row g-3">
+
+                        <div class="col-12 col-md-4">
+                            <input type="text" class="form-control form-control-lg" id="firstname" name="firstname" placeholder="First Name" aria-label="First Name" required>
+                        </div>
+
+                        <div class="col-12 col-md-4">
+                            <input type="email" class="form-control form-control-lg" id="email" name="email" placeholder="Email" aria-label="Email" required>
+                        </div>
+
+                        <div class="col-12 col-md-4 d-grid">
+                            <button type="submit" class="btn btn-primary rounded text-white" onclick="event.preventDefault()">Subscribe</button>
+                        </div>
+                    </form>
+                </article>
+            </div>
+        </section>
+
+    <script src="navbar.js"></script>
+
+    <script src="footer.js"></script>
+
+</body>
+
+    <div id="footer"></div>
+</html>

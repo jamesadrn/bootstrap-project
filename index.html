@@ -13,6 +13,11 @@
     <title>Jabarano Theme</title>
 
     <style>
+
+      *{
+        scroll-behavior: smooth;
+      }
+
       body {
           font-family: 'Roboto', sans-serif;
           background-color: #11191f;
@@ -24,9 +29,11 @@
           border-radius: 12px;
           transition: transform 0.3s ease;
       }
+      
       .card:hover {
           transform: scale(1.05);
       }
+
       .btn-primary {
           background-color: #007bff;
           border: none;
@@ -36,6 +43,11 @@
 
       .card-title, .card-text{
         color:black;
+      }
+
+      .card-title{
+        font-size: 22px;
+        font-weight: bold;
       }
 
       .caption h3{
@@ -53,146 +65,147 @@
     <div class="" id="navbar"></div>
 
     <main class="container mt-5">
+
         <!-- Judul -->
         <section>
+
             <h1 class="display-5"><b>Welcome to Jabarano Lifestyle Hub</b></h1>
             <p class="text-secondary lead">Explore trends, wellness, and living your best life</p>
             <p class="mt-4">Lifestyle is all about finding balance, embracing health, and living in the moment. Whether you're into fitness, mindfulness, or just looking to elevate your daily routines, you've come to the right place.</p>
+            
+            <!-- Gambar Beserta Caption-->
+            <figure>
+              <img src="https://images.unsplash.com/photo-1507919909716-c8262e491cde" alt="Gambar 1" class="img-fluid mt-4 rounded">
+              <figcaption class="text-info mt-2"><a href="https://unsplash.com" target="_blank" class="text-decoration-none">Photo from Unsplash</a></figcaption>
+            </figure>
+
         </section>
-        <!-- Gambar Beserta Caption-->
-        <figure>
-            <img src="https://images.unsplash.com/photo-1507919909716-c8262e491cde" alt="Gambar 1" class="img-fluid mt-4 rounded">
-            <figcaption class="text-info mt-2"><a href="https://unsplash.com" target="_blank" class="text-decoration-none">Photo from Unsplash</a></figcaption>
-        </figure>
 
         <!-- Latest in Wellness -->
         <section class="mt-5">
-            <h2><b>Latest in Wellness</b></h2>
-            <p class="h6 mt-4">Discover the latest trends in wellness, from meditation techniques to fitness tips that keep you grounded and healthy.</p>
+          <h2><b>Latest in Wellness</b></h2>
+          <p class="h4 mt-3">Discover the latest trends in wellness, from meditation techniques to fitness tips that keep you grounded and healthy.</p>
 
-            <div class="row row-cols-1 row-cols-md-2 g-4 mt-2">
-                <div class="col">
+          <div class="row row-cols-1 row-cols-md-2 g-4 mt-2">
+              <div class="col">
                   <div class="card">
-                    <img src="https://images.unsplash.com/photo-1445633743309-b60418bedbf2?q=80&w=1740&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" class="card-img-top"
-                      alt="" />
-                    <div class="card-body">
-                      <h5 class="card-title">Card title</h5>
-                      <p class="card-text">
-                        This is a longer card with supporting text below as a natural lead-in to
-                        additional content.
-                      </p>
-                    </div>
+                      <img src="https://images.unsplash.com/photo-1445633743309-b60418bedbf2?q=80&w=1740&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" class="card-img-top"
+                          alt="Morning Meditation Session" />
+                      <div class="card-body">
+                          <h5 class="card-title">The Power of Morning Meditation</h5>
+                          <p class="card-text">
+                              Discover how incorporating just 10 minutes of morning meditation can transform your daily routine and boost mental clarity for the day.
+                          </p>
+                      </div>
                   </div>
-                </div>
-                <div class="col">
-                  <div class="card">
-                    <img src="https://images.unsplash.com/photo-1445307806294-bff7f67ff225?q=80&w=1748&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" class="card-img-top"
-                      alt="" />
-                    <div class="card-body">
-                      <h5 class="card-title">Card title</h5>
-                      <p class="card-text">
-                        This is a longer card with supporting text below as a natural lead-in to
-                        additional content.
-                      </p>
-                    </div>
-                  </div>
-                </div>
-                <div class="col">
-                  <div class="card">
-                    <img src="https://images.unsplash.com/photo-1486591038957-19e7c73bdc41?q=80&w=1740&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" class="card-img-top"
-                      alt="" />
-                    <div class="card-body">
-                      <h5 class="card-title">Card title</h5>
-                      <p class="card-text">This is a longer card with supporting text below as a natural lead-in to
-                        additional content.</p>
-                    </div>
-                  </div>
-                </div>
-                <div class="col">
-                  <div class="card">
-                    <img src="https://images.unsplash.com/photo-1445384763658-0400939829cd?q=80&w=1740&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" class="card-img-top"
-                      alt="" />
-                    <div class="card-body">
-                      <h5 class="card-title">Card title</h5>
-                      <p class="card-text">
-                        This is a longer card with supporting text below as a natural lead-in to
-                        additional content.
-                      </p>
-                    </div>
-                  </div>
-                </div>
               </div>
+              <div class="col">
+                  <div class="card">
+                      <img src="https://images.unsplash.com/photo-1445307806294-bff7f67ff225?q=80&w=1748&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" class="card-img-top"
+                          alt="Yoga Practice in Nature" />
+                      <div class="card-body">
+                          <h5 class="card-title">Outdoor Yoga Benefits</h5>
+                          <p class="card-text">
+                              Learn why practicing yoga in nature can enhance your mental well-being and provide a deeper connection to your practice.
+                          </p>
+                      </div>
+                  </div>
+              </div>
+              <div class="col">
+                  <div class="card">
+                      <img src="https://images.unsplash.com/photo-1486591038957-19e7c73bdc41?q=80&w=1740&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" class="card-img-top"
+                          alt="Healthy Breakfast Bowl" />
+                      <div class="card-body">
+                          <h5 class="card-title">Mindful Eating Guide</h5>
+                          <p class="card-text">
+                              Explore the principles of mindful eating and how this practice can improve your relationship with food and overall nutrition.
+                          </p>
+                      </div>
+                  </div>
+              </div>
+              <div class="col">
+                  <div class="card">
+                      <a href="blog.html">
+                      <img src="https://images.unsplash.com/photo-1445384763658-0400939829cd?q=80&w=1740&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" class="card-img-top"
+                          alt="Nature Walk" />
+                      <div class="card-body">
+                          <h5 class="card-title">Forest Bathing: Nature's Therapy</h5>
+                          <p class="card-text">
+                              Discover the Japanese practice of Shinrin-yoku (forest bathing) and its remarkable benefits for reducing stress and anxiety.
+                          </p>
+                      </div>
+                    </a>
+                  </div>
+              </div>
+          </div>
 
-            <div>
-                <a href="blog.html" class="btn btn-primary mt-4 rounded">View More</a>
-            </div>            
+          <div>
+              <a href="blog.html" class="btn btn-primary mt-4 rounded">View More</a>
+          </div>            
         </section>
 
         <!-- Explore Fashion & Trends -->
         <section class="mt-5">
-            <h2><b>Explore Fashion & Trends</b></h2>
-            <p class="h6 mt-4">Stay ahead in fashion with insights into what's trending, sustainable fashion tips, and more.</p>
+          <h2><b>Explore Fashion & Trends</b></h2>
+          <p class="h4 mt-3">Stay ahead in fashion with insights into what's trending, sustainable fashion tips, and more.</p>
 
-            <div class="row row-cols-1 row-cols-md-2 g-4 mt-2">
-                <div class="col">
+          <div class="row row-cols-1 row-cols-md-2 g-4 mt-2">
+              <div class="col">
                   <div class="card">
-                    <img src="https://images.unsplash.com/photo-1512201078372-9c6b2a0d528a?q=80&w=1746&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" class="card-img-top"
-                      alt="" />
-                    <div class="card-body">
-                      <h5 class="card-title">Card title</h5>
-                      <p class="card-text">
-                        This is a longer card with supporting text below as a natural lead-in to
-                        additional content.
-                      </p>
-                    </div>
+                      <img src="https://images.unsplash.com/photo-1512201078372-9c6b2a0d528a?q=80&w=1746&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" class="card-img-top"
+                          alt="Winter Fashion Essentials" />
+                      <div class="card-body">
+                          <h5 class="card-title">Winter Wardrobe Must-Haves</h5>
+                          <p class="card-text">
+                              Discover this season's essential pieces that combine style and warmth. From cozy knits to elegant outerwear.
+                      </div>
                   </div>
-                </div>
-                <div class="col">
-                  <div class="card">
-                    <img src="https://images.unsplash.com/photo-1496747611176-843222e1e57c?q=80&w=1746&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" class="card-img-top"
-                      alt="" />
-                    <div class="card-body">
-                      <h5 class="card-title">Card title</h5>
-                      <p class="card-text">
-                        This is a longer card with supporting text below as a natural lead-in to
-                        additional content.
-                      </p>
-                    </div>
-                  </div>
-                </div>
-                <div class="col">
-                  <div class="card">
-                    <img src="https://img.freepik.com/free-photo/outdoor-lifestyle-fashion-portrait-pretty-elegant-glamour-blonde-woman-with-long-legs-wearing-trendy-sneakers-dress-sweater-coat-posing-europe-city-traveling-alone_291049-633.jpg?t=st=1729765536~exp=1729769136~hmac=aba284067fe8308aa54e30284ddcce358b499a9c12e465f86c7f181c86418454&w=1380" class="card-img-top"
-                      alt="" />
-                    <div class="card-body">
-                      <h5 class="card-title">Card title</h5>
-                      <p class="card-text">This is a longer card with supporting text below as a natural lead-in to
-                        additional content.</p>
-                    </div>
-                  </div>
-                </div>
-                <div class="col">
-                  <div class="card">
-                    <img src="https://img.freepik.com/free-photo/woman-looks-her-shoulder-walking-along-street_8353-458.jpg?t=st=1729765529~exp=1729769129~hmac=18277553157a61056b2bc6df0a12c5233b279cc9407b061156d72960a97718c8&w=1380" class="card-img-top"
-                      alt="" />
-                    <div class="card-body">
-                      <h5 class="card-title">Card title</h5>
-                      <p class="card-text">
-                        This is a longer card with supporting text below as a natural lead-in to
-                        additional content.
-                      </p>
-                    </div>
-                  </div>
-                </div>
               </div>
+              <div class="col">
+                  <div class="card">
+                      <img src="https://images.unsplash.com/photo-1496747611176-843222e1e57c?q=80&w=1746&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" class="card-img-top"
+                          alt="Sustainable Fashion Choices" />
+                      <div class="card-body">
+                          <h5 class="card-title">Sustainable Style Guide</h5>
+                          <p class="card-text">
+                              Learn how to build an eco-friendly wardrobe without compromising on style. Tips for choosing sustainable brands and materials.
+                          </p>
+                      </div>
+                  </div>
+              </div>
+              <div class="col">
+                  <div class="card">
+                      <img src="https://img.freepik.com/free-photo/outdoor-lifestyle-fashion-portrait-pretty-elegant-glamour-blonde-woman-with-long-legs-wearing-trendy-sneakers-dress-sweater-coat-posing-europe-city-traveling-alone_291049-633.jpg" class="card-img-top"
+                          alt="Street Style Fashion" />
+                      <div class="card-body">
+                          <h5 class="card-title">Urban Street Style 2024</h5>
+                          <p class="card-text">
+                              Get inspired by the latest street style trends. Mix comfort with fashion using sneakers, dresses, and statement coats.
+                          </p>
+                      </div>
+                  </div>
+              </div>
+              <div class="col">
+                  <div class="card">
+                      <img src="https://img.freepik.com/free-photo/woman-looks-her-shoulder-walking-along-street_8353-458.jpg" class="card-img-top"
+                          alt="Accessories Styling Guide" />
+                      <div class="card-body">
+                          <h5 class="card-title">Accessorizing Like a Pro</h5>
+                          <p class="card-text">
+                              Master the art of accessorizing with our comprehensive guide to elevating any outfit. From minimal to statement pieces.
+                          </p>
+                      </div>
+                  </div>
+              </div>
+          </div>
 
-            <div>
-                <a href="blog.html" class="btn btn-primary mt-4 rounded">View More</a>
-            </div>            
+          <div>
+              <a href="blog.html" class="btn btn-primary mt-4 rounded">View More</a>
+          </div>            
         </section>
 
         <!-- Join Our Community -->
-        <section aria-label="Subscribe Examples" class="py-5">
+        <section aria-label="Subscribe Examples" class="py-5" id="Subscribe">
             <div class="container-md shadow p-5 rounded" style="background-color: #15242f;">
                 <article class="text-center">
                     <hgroup class="caption">
@@ -200,15 +213,15 @@
                         <h3 class="mb-4 text-muted">Subscribe for the latest lifestyle updates</h3>
                     </hgroup>
                     <form class="row g-3">
-                        <!-- First Name Input -->
+
                         <div class="col-12 col-md-4">
                             <input type="text" class="form-control form-control-lg" id="firstname" name="firstname" placeholder="First Name" aria-label="First Name" required>
                         </div>
-                        <!-- Email Input -->
+
                         <div class="col-12 col-md-4">
                             <input type="email" class="form-control form-control-lg" id="email" name="email" placeholder="Email" aria-label="Email" required>
                         </div>
-                        <!-- Subscribe Button -->
+
                         <div class="col-12 col-md-4 d-grid">
                             <button type="submit" class="btn btn-primary rounded text-white" onclick="event.preventDefault()">Subscribe</button>
                         </div>
@@ -217,30 +230,14 @@
             </div>
         </section>
 
-
-        
     </main>
-
-
-
-
-
-
-
-
-
-
-
-
 
     <script src="navbar.js"></script>
 
+    <script src="footer.js"></script>
+
   </body>
 
-  <footer>
-    <div class="container mt-5">
-      <p class="text-center text-muted">Copyright &copy; 2021 Jabarano Theme. All rights reserved.</p>
-    </div>
-  </footer>
+    <div id="footer"></div>
   
 </html>
